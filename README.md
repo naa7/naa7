@@ -1,4 +1,5 @@
 ## naa7
+```python
 class Attributes(naa7):
 
 	@staticmethod
@@ -19,3 +20,4 @@ class Attributes(naa7):
 		linux = ['Cipher_utility', 'work_timer', 'ressor_utility', 'git_repo_utiliy']
 		unity = ['pop_the_balloons']
 		return android, discord, linux, unity
+```
