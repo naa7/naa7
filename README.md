@@ -17,9 +17,10 @@ class Attributes(naa7):
 	def solo_projects() -> tuple:
 		android = ['Flixster', 'SimpleTweet']
 		discord   = ['NaaGPT']
-		linux = ['Cipher_utility', 'work_timer', 'ressor_utility', 'git_repo_utiliy']
+		general = ['databaser']
+		linux = ['cipher_utility', 'cryptalight', 'work_timer', 'ressor_utility', 'git_repo_utiliy']
 		unity = ['pop_the_balloons']
-		return android, discord, linux, unity
+		return android, discord, general, linux, unity
 		
 	@staticmethod
 	def group_projects() -> tuple:
