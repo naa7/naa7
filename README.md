@@ -14,10 +14,15 @@ class Attributes(naa7):
 		return langs, environnement
 	
 	@staticmethod
-	def projects() -> tuple:
+	def solo_projects() -> tuple:
 		android = ['Flixster', 'SimpleTweet']
 		discord   = ['NaaGPT']
 		linux = ['Cipher_utility', 'work_timer', 'ressor_utility', 'git_repo_utiliy']
 		unity = ['pop_the_balloons']
 		return android, discord, linux, unity
+		
+	@staticmethod
+	def group_projects() -> tuple:
+		unity = ['Vision']
+		return unity
 ```
