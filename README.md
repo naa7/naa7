@@ -9,9 +9,11 @@ class Attributes(naa7):
 			'intermediate': ['java', 'shell', 'c', 'c++'],
 			'learning': ['c#', 'js', 'asm']
 		}
+		libraries = ['react', 'redux']
+		frameworks = ['Node.js', 'Express.js']
 		environnement = ['terminal', 'vscode', 'intelliJ']
 		
-		return langs, environnement
+		return langs, libraries, frameworks, environnement
 	
 	@staticmethod
 	def solo_projects() -> tuple:
