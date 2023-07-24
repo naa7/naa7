@@ -5,12 +5,13 @@ class Attributes(naa7):
 	@staticmethod
 	def coding() -> tuple:
 		langs = {
-			'good':   ['python'],
+			'good': ['python'],
 			'intermediate': ['java', 'shell', 'c', 'c++'],
 			'learning': ['c#', 'js', 'asm']
 		}
-		libraries = ['react', 'redux']
+		libraries = ['react', 'redux', 'Sequelize']
 		frameworks = ['Node.js', 'Express.js']
+		databases = ['MySQL', 'PostgreSQL']
 		environnement = ['terminal', 'vscode', 'intelliJ']
 		
 		return langs, libraries, frameworks, environnement
