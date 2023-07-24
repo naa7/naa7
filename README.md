@@ -29,6 +29,6 @@ class Attributes(naa7):
 	@staticmethod
 	def group_projects() -> tuple:
 		unity = ['Vision']
-		fullstack = ['CrudApp', 'Wint']
-		return unity
+		fullstackWebApps = ['CrudApp', 'Wint']
+		return unity, fullstackWebApps
 ```
