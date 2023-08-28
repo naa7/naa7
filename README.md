@@ -31,8 +31,9 @@ class Attributes:
     
     @staticmethod
     def group_projects() -> tuple:
+	discord = ['NashArt']
 	unity = ['Vision']
 	fullstack_web_apps = ['CrudApp', 'Wint']
 
-	return unity, fullstack_web_apps
+	return discord, unity, fullstack_web_apps
 ```
