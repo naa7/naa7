@@ -11,8 +11,8 @@ class Attributes:
         }
         web_development = ['HTML', 'CSS']
         libraries = ['React', 'Redux', 'Sequelize']
-        frameworks = ['Node.js', 'Express.js']
-        databases = ['MySQL', 'PostgreSQL']
+        frameworks = ['Node.js', 'Express.js','Flask']
+        databases = ['MySQL', 'PostgreSQL', 'MongoDB']
         environments = ['Terminal', 'VSCode', 'IntelliJ']
         
         return langs, web_development, libraries, frameworks, databases, environments
@@ -25,7 +25,7 @@ class Attributes:
         linux = ['cipher_utility', 'cryptalight', 'work_timer',
                  'ressor_utility', 'git_utility']
         unity = ['pop_the_balloons']
-        fullstack = ['chrive']
+        fullstack = ['chrive', 'Portfolio', 'url_shortener', 'receipt_processor']
         
         return android, discord, general, linux, unity, fullstack
     
@@ -33,7 +33,7 @@ class Attributes:
     def group_projects() -> tuple:
 	discord = ['NashArt']
 	unity = ['Vision']
-	fullstack_web_apps = ['CrudApp', 'Wint']
+	fullstack_web_apps = ['CrudApp', 'Wint', 'NOK-Draw', 'HikerAI']
 
 	return discord, unity, fullstack_web_apps
 ```
