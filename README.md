@@ -11,7 +11,7 @@ class Attributes:
         }
         web_development = ['HTML', 'CSS']
         libraries = ['React', 'Redux', 'Sequelize']
-        frameworks = ['Node.js', 'Express.js','Flask']
+        frameworks = ['Node.js', 'Express.js', 'Django', 'Flask']
         databases = ['MySQL', 'PostgreSQL', 'MongoDB']
         environments = ['Terminal', 'VSCode', 'IntelliJ']
         
