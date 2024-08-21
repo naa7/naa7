@@ -12,7 +12,7 @@ class Attributes:
         web_development = ['HTML', 'CSS']
         libraries = ['React', 'Redux', 'Sequelize']
         frameworks = ['Node.js', 'Express.js', 'Django', 'Flask']
-        databases = ['MySQL', 'PostgreSQL', 'MongoDB']
+        databases = ['MySQL', 'PostgreSQL', 'MongoDB', 'ChromaDB']
         environments = ['Terminal', 'VSCode', 'IntelliJ']
         
         return langs, web_development, libraries, frameworks, databases, environments
