@@ -4,19 +4,15 @@ class Attributes:
     
     @staticmethod
     def coding() -> tuple:
-        langs = {
-            'good': ['Python', 'Java', 'Shell'],
-            'intermediate': ['JavaScript', 'TypeScript, 'C', 'C++'],
-            'learning': ['C#', 'Assembly', 'PHP']
-        }
-        web_development = ['HTML', 'CSS']
-        libraries = ['Pandas', 'NumPy', 'Seaborn', 'Matplotlib', 'PyTorch', 'TensorFlow', 'Keras', 'scikit-learn', 'HuggingFace', 'Sequelize']
+        languages = ['Python', 'Java', 'C', 'C++', 'JavaScript', 'TypeScript', 'HTML', 'CSS']
         frameworks = ['React', 'Redux', 'Next.js', 'Node.js', 'Express.js', 'Django', 'Flask', 'TailwindCSS']
-        databases = ['MySQL', 'PostgreSQL', 'MongoDB', 'ChromaDB']
+        libraries = ['Pandas', 'NumPy', 'Seaborn', 'Matplotlib', 'PyTorch', 'TensorFlow', 'Keras', 'scikit-learn', 'HuggingFace', 'Sequelize']
 	tools_and_technologies = ['Git', 'Npm', 'Github', 'Figma', 'Jira', 'Docker', 'Sentry', 'Buildkite', 'Redis', 'Bash', 'Ollama', 'Postman']
-        environments = ['Terminal', 'VSCode', 'IntelliJ']
+        databases = ['MySQL', 'PostgreSQL', 'MongoDB', 'ChromaDB']
+	environments = ['Terminal', 'VSCode', 'IntelliJ']
+	other = ['Kanban', 'Scrum', 'JWT', 'OAuth2', 'Jest', 'Pytest', 'RESTful APIs', 'Confluence']
         
-        return langs, web_development, libraries, frameworks, databases, environments
+        return languages, frameworks, libraries, tools_and_technologies, databases, environments, other
     
     @staticmethod
     def solo_projects() -> tuple:
