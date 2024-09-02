@@ -7,7 +7,7 @@ class Attributes:
         languages = ['Python', 'Java', 'C', 'C++', 'JavaScript', 'TypeScript', 'HTML', 'CSS']
         frameworks = ['React', 'Redux', 'Next.js', 'Node.js', 'Express.js', 'Django', 'Flask', 'TailwindCSS']
         libraries = ['Pandas', 'NumPy', 'Seaborn', 'Matplotlib', 'PyTorch', 'TensorFlow', 'Keras', 'scikit-learn',
-                     'HuggingFace', 'Sequelize']
+                     'Langchain', 'HuggingFace', 'Sequelize']
 	tools_and_technologies = ['Git', 'Npm', 'Github', 'Figma', 'Jira', 'Docker', 'Sentry', 'Buildkite', 'Redis',
                                   'Bash', 'Ollama', 'Postman']
         databases = ['MySQL', 'PostgreSQL', 'MongoDB', 'ChromaDB']
