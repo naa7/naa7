@@ -6,10 +6,10 @@ class Attributes:
     def coding() -> tuple:
         languages = ['Python', 'Java', 'C', 'C++', 'JavaScript', 'TypeScript', 'HTML', 'CSS']
         frameworks = ['React', 'Redux', 'Next.js', 'Node.js', 'Express.js', 'Django', 'Flask', 'TailwindCSS']
-        libraries = ['Pandas', 'NumPy', 'Seaborn', 'Matplotlib', 'PyTorch', 'TensorFlow', 'Keras', 'scikit-learn',
-                     'Langchain', 'HuggingFace', 'Sequelize']
-	tools_and_technologies = ['Git', 'Npm', 'Github', 'Figma', 'Jira', 'Docker', 'Sentry', 'Buildkite', 'Redis',
-                                  'Bash', 'Ollama', 'Postman']
+        libraries = ['Pandas', 'NumPy', 'Seaborn', 'Matplotlib', 'PyTorch', 'TensorFlow', 'Keras',
+		     'scikit-learn', 'Langchain', 'HuggingFace', 'Sequelize']
+	tools_and_technologies = ['Git', 'Npm', 'Github', 'Figma', 'Jira', 'Docker', 'Sentry', 'Buildkite',
+				  'Redis', 'Bash', 'Ollama', 'Postman']
         databases = ['MySQL', 'PostgreSQL', 'MongoDB', 'ChromaDB']
 	environments = ['Terminal', 'VSCode', 'IntelliJ']
 	other = ['Kanban', 'Scrum', 'JWT', 'OAuth2', 'Jest', 'Pytest', 'RESTful APIs', 'Confluence']
