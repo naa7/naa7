@@ -5,14 +5,15 @@ class Attributes:
     @staticmethod
     def coding() -> tuple:
         langs = {
-            'good': ['Python'],
-            'intermediate': ['Java', 'Shell', 'C', 'C++'],
-            'learning': ['C#', 'JavaScript', 'Assembly', 'PHP']
+            'good': ['Python', 'Java', 'Shell'],
+            'intermediate': ['JavaScript', 'TypeScript, 'C', 'C++'],
+            'learning': ['C#', 'Assembly', 'PHP']
         }
         web_development = ['HTML', 'CSS']
-        libraries = ['React', 'Redux', 'Sequelize']
-        frameworks = ['Node.js', 'Express.js', 'Django', 'Flask']
+        libraries = ['Pandas', 'NumPy', 'Seaborn', 'Matplotlib', 'PyTorch', 'TensorFlow', 'Keras', 'scikit-learn', 'HuggingFace', 'Sequelize']
+        frameworks = ['React', 'Redux', 'Next.js', 'Node.js', 'Express.js', 'Django', 'Flask', 'TailwindCSS']
         databases = ['MySQL', 'PostgreSQL', 'MongoDB', 'ChromaDB']
+	tools_and_technologies = ['Git', 'Npm', 'Github', 'Figma', 'Jira', 'Docker', 'Sentry', 'Buildkite', 'Redis', 'Bash', 'Ollama', 'Postman']
         environments = ['Terminal', 'VSCode', 'IntelliJ']
         
         return langs, web_development, libraries, frameworks, databases, environments
@@ -21,9 +22,9 @@ class Attributes:
     def solo_projects() -> tuple:
         android = ['Flixster', 'SimpleTweet']
         discord = ['NaaGPT']
-        general = ['databaser']
+        general = ['databaser', 'git_utility']
         linux = ['cipher_utility', 'cryptalight', 'work_timer',
-                 'ressor_utility', 'git_utility']
+                 'ressor_utility']
         unity = ['pop_the_balloons']
         fullstack = ['chrive', 'Portfolio', 'url_shortener', 'receipt_processor']
         
