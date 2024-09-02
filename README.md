@@ -26,9 +26,9 @@ class Attributes:
     
     @staticmethod
     def team_projects() -> tuple:
-	fullstack_web_apps = ['CrudApp', 'Wint', 'NOK-Draw', 'HikerAI']
+	fullstacks = ['HikerAI', 'NOK-Draw', 'Wint', 'CrudApp']
 	discord = ['NashArt']
 	unity = ['Vision']
 
-	return fullstack_web_apps, discord, unity
+	return fullstack, discord, unity
 ```
