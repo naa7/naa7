@@ -16,21 +16,19 @@ class Attributes:
     
     @staticmethod
     def solo_projects() -> tuple:
+        general = ['databaser', 'git_utility', 'cipher_utility', 'cryptalight', 'work_timer', 'ressor_utility', 'AWS_flow_log_parser']
+        fullstack = ['chrive', 'Portfolio', 'url_shortener', 'receipt_processor']
         android = ['Flixster', 'SimpleTweet']
         discord = ['NaaGPT']
-        general = ['databaser', 'git_utility']
-        linux = ['cipher_utility', 'cryptalight', 'work_timer',
-                 'ressor_utility']
         unity = ['pop_the_balloons']
-        fullstack = ['chrive', 'Portfolio', 'url_shortener', 'receipt_processor']
         
-        return android, discord, general, linux, unity, fullstack
+        return  general, fullstack, android, discord, unity
     
     @staticmethod
-    def group_projects() -> tuple:
+    def team_projects() -> tuple:
+	fullstack_web_apps = ['CrudApp', 'Wint', 'NOK-Draw', 'HikerAI']
 	discord = ['NashArt']
 	unity = ['Vision']
-	fullstack_web_apps = ['CrudApp', 'Wint', 'NOK-Draw', 'HikerAI']
 
-	return discord, unity, fullstack_web_apps
+	return fullstack_web_apps, discord, unity
 ```
