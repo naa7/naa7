@@ -29,7 +29,7 @@ class Attributes:
     
     @staticmethod
     def team_projects() -> tuple:
-	fullstacks = ['HikerAI', 'NOK-Draw', 'Wint', 'CrudApp']
+	fullstacks = ['HikerAI', 'NOK-Draw', 'Wint', 'homicides_dashboard', 'CrudApp']
 	discord = ['NashArt']
 	unity = ['Vision']
 
