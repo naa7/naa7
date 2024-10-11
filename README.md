@@ -22,7 +22,7 @@ class Attributes:
 		   'aws_flow_log_parser']
         fullstack = ['chrive', 'Portfolio', 'url_shortener', 'receipt_processor']
         android = ['Flixster', 'SimpleTweet']
-        discord = ['NaaGPT']
+        discord = ['JobAlerts', 'NaaGPT']
         unity = ['pop_the_balloons']
         
         return  general, fullstack, android, discord, unity
