@@ -18,11 +18,11 @@ class Attributes:
     
     @staticmethod
     def solo_projects() -> tuple:
-        general = ['databaser', 'git_utility', 'cipher_utility', 'cryptalight', 'work_timer', 'ressor_utility',
+        general = ['databaser', 'git_utility', 'cipher_utility', 'cryptalight', 'wimer', 'ressor_utility',
 		   'aws_flow_log_parser']
         fullstack = ['chrive', 'Portfolio', 'url_shortener', 'receipt_processor']
         android = ['Flixster', 'SimpleTweet']
-        discord = ['JobAlerts', 'NaaGPT']
+        discord = ['Jopo', 'NaaGPT']
         unity = ['pop_the_balloons']
         
         return  general, fullstack, android, discord, unity
